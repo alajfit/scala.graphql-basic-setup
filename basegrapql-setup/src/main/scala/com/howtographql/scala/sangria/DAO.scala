@@ -4,3 +4,5 @@ import slick.jdbc.H2Profile.api._
 class DAO(db: Database) {
 
 }
+
+case class MyContext(dao: DAO)
